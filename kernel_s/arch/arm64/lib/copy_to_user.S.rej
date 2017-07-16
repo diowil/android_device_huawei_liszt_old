@@ -1,0 +1,11 @@
+--- arch/arm64/lib/copy_to_user.S
++++ arch/arm64/lib/copy_to_user.S
+@@ -17,7 +17,7 @@
+ #include <linux/linkage.h>
+ 
+ #include <asm/cache.h>
+-#include <linux/uaccess.h>
++#include <asm/uaccess.h>
+ 
+ /*
+  * Copy to user space from a kernel buffer (alignment handled by the hardware)

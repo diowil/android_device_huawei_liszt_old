@@ -1,0 +1,10 @@
+--- arch/arm64/kernel/entry.S
++++ arch/arm64/kernel/entry.S
+@@ -31,7 +31,6 @@
+ #include <asm/memory.h>
+ #include <asm/ptrace.h>
+ #include <asm/thread_info.h>
+-#include <linux/uaccess.h>
+ #include <asm/unistd.h>
+ 
+ /*

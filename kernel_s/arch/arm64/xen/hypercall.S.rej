@@ -1,0 +1,11 @@
+--- arch/arm64/xen/hypercall.S
++++ arch/arm64/xen/hypercall.S
+@@ -49,7 +49,7 @@
+ 
+ #include <linux/linkage.h>
+ #include <asm/assembler.h>
+-#include <linux/uaccess.h>
++#include <asm/uaccess.h>
+ #include <xen/interface/xen.h>
+ 
+ 
